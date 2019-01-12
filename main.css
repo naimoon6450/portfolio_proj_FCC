@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+
+
+
+
+div h1 {
+    margin: 0;
+    padding-top: 0px;
+    font-size: 5em;
+    
+}
+
+
+.paddingT {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.block {
+    background-color: black;
+    opacity: .7;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 50%;
+    
+    /* Line that centered the block in the middle of the page*/
+    margin: 10% auto; 
+}
+
+#avatar {
+    height: 250px;
+    
+}
+
+
+.nav-pills {
+    font-size: 2em;
+    background-color: black;
+}
+
+.nav-pills li {
+    margin-left: 5px;
+    display: flex;
+}
+
+
+
+.page1 {
+    background: url('https://images.unsplash.com/photo-1546989288-bee08331e8aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    background-size: cover;
+    height: 800px;
+    padding-bottom: 10%;
+    
+}
+
+.page2 {
+    background: url('https://images.unsplash.com/photo-1540202403-b7abd6747a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+    background-size: cover;
+    height: 800px;
+    padding-top: 5%;
+}
+
+.rowp2 {
+    padding-top: 10%;
+}
+
+#p2 p {
+    margin-left: 10%;
+}
+
+.page3 {
+    background: url('https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+.page4 {
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 400px;
+    color: white;
+}
+
+#contact {
+    padding-top: 10%;
+}
